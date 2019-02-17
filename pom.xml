@@ -733,6 +733,18 @@
             </modules>
         </profile>
         <profile>
+            <id>jaxrs-alfresco</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>java</value>
+                </property>
+            </activation>
+            <modules>
+                <module>samples/server/petstore/jaxrs/alfresco</module>
+            </modules>
+        </profile>
+        <profile>
             <id>jaxrs-server-jersey1</id>
             <activation>
                 <property>
